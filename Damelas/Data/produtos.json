@@ -1,0 +1,90 @@
+[
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 2,
+        "Nome": "Inkasa Kobe 30 peças",
+        "Descricao": "2 niguiri de kani, 2 niguiri de camarão, 3 niguiri de salmão fresco, 4 uramaki de camarão com cream cheese, 4 acelga maki de salmão grelhado com cream cheese e Doritos, 4 hossomaki de salmão fresco com cream cheese, 4 hot-roll com kani, 4 shake-couve, 3 sashimi de salmão fresco.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 140,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/002.jpg"
+    },
+    {
+        "Numero": 3,
+        "Nome": "Inkasa Nagoya 15pçs ",
+        "Descricao": "5 Hossomaki De Salmão + 3 Uramaki Tropical + 2 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 2 Joe Salmão + 1 Nigiri De Salmão + 1 Nigiri De Kani + 1 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 55,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/004"
+    }
+    {
+        "Numero": 4,
+        "Nome": "Inkasa Osaka 20pçs",
+        "Descricao": "3 Hossomaki De Salmão Grelhado C/ Cream Cheese + 3 Uramaki Tropical + 2 Uramaki Camarão C/ Cream Cheese + 2 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 2 Joe Salmão + 2 Sashimi De Salmão + 2 Nigiri De Salmão + 2 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 90,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/003.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+]
