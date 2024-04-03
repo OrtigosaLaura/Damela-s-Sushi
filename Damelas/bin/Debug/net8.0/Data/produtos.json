@@ -1,0 +1,315 @@
+[
+    {
+        "Numero": 1,
+        "Nome": "Barca Família 60pçs ",
+        "Descricao": "10 Hossomaki De Salmão Grelhado C/ Cream Cheese + 10 Uramaki Tropical + 8 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 8 Uramaki De Salmão C/ Cream Cheese + 8 Uramaki Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Sashimi Salmão + 3 Nigiri De Salmão + 3 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 2,
+        "Nome": "Inkasa Kobe 30 peças",
+        "Descricao": "2 niguiri de kani, 2 niguiri de camarão, 3 niguiri de salmão fresco, 4 uramaki de camarão com cream cheese, 4 acelga maki de salmão grelhado com cream cheese e Doritos, 4 hossomaki de salmão fresco com cream cheese, 4 hot-roll com kani, 4 shake-couve, 3 sashimi de salmão fresco.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 140,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/002.jpg"
+    },
+    {
+        "Numero": 3,
+        "Nome": "Inkasa Nagoya 15pçs ",
+        "Descricao": "5 Hossomaki De Salmão + 3 Uramaki Tropical + 2 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 2 Joe Salmão + 1 Nigiri De Salmão + 1 Nigiri De Kani + 1 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 55,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/004"
+    },
+    {
+        "Numero": 4,
+        "Nome": "Inkasa Osaka 20pçs",
+        "Descricao": "3 Hossomaki De Salmão Grelhado C/ Cream Cheese + 3 Uramaki Tropical + 2 Uramaki Camarão C/ Cream Cheese + 2 Acelga Maki De Salmão Grelhado C/ Cream Cheese E Doritos + 2 Joe Salmão + 2 Sashimi De Salmão + 2 Nigiri De Salmão + 2 Nigiri De Kani + 2 Nigiri De Camarão.",
+        "Tipo": ["Combinados Tradicionais"],
+        "Preço": 90,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/003.jpg"
+    },
+    {
+        "Numero": 5,
+        "Nome": "Barca de Camarão 20pçs",
+        "Descricao": "6 Hossomaki De Camarão + 6 Uramaki De Camarão C/ Cream Cheese + 4 Joe Camarão + 4 Nigiri De Camarão.",
+        "Tipo": ["Barcas Especiais"],
+        "Preço": 90,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 6,
+        "Nome": "Barca de Salmão 20pçs",
+        "Descricao": "5 Hossomaki De Salmão + 5 Uramaki De Salmão C/ Cream Cheese + 4 Sashimi De Salmão + 4 Joe Salmão + 2 Nigiri De Salmão.",
+        "Tipo": ["Barcas Especiais"],
+        "Preço": 90,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 7,
+        "Nome": "Barca de Salmão e Camarão 20pçs",
+        "Descricao": "3 Hossomaki De Salmão + 3 Hossomaki De Camarão + 2 Sashimi De Salmão + 2 Uramaki De Salmão C/ Cream Cheese + 2 Uramaki De Camarão C/ Cream Cheese + 2 Joe Salmão + 2 Joe Camarão + 2 Nigiri De Salmão + 2 Nigiri De Camarão.",
+        "Tipo": ["Barcas Especiais"],
+        "Preço": 85,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 8,
+        "Nome": "Carpaccio de Salmão 12 unidades",
+        "Descricao": "12 Deliciosas fatias de salmão ao molho ervas, azeite, tempero do chefe e salsa trufada.",
+        "Tipo": ["Linha Gourmet"],
+        "Preço": 80,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 9,
+        "Nome": "Dupla Niguiri Camarão Trufado",
+        "Descricao": "2 Niguiri de camarão com salsa trufada, ovas de massago e cebolinha.",
+        "Tipo": ["Linha Gourmet"],
+        "Preço": 15,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 10,
+        "Nome": "Dupla Niguiri de Salmão Trufado",
+        "Descricao": "Dupla Niguiri de Salmão Trufado",
+        "Tipo": ["Linha Gourmet"],
+        "Preço": 15,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 11,
+        "Nome": "Ebi Kani com Maracujá",
+        "Descricao": "Enrolado de Kani com recheio de camarão, cream cheese e deliciosos molho de maracujá 8 unidades.",
+        "Tipo": ["Linha Gourmet"],
+        "Preço": 30,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 12,
+        "Nome": "Inkasa gourmet Maçaricado niigata (24 peças)",
+        "Descricao": "4 sashimi maçaricado de salmão trufado, 4 niguiri de agulhão maçaricado ao molho de ervas, 4 baterá de salmão com cebolinha, 4 Dyo de shimeji maçaricado com cebolinha, 4 dyo de camarão maçaricado com geleia de rubras, 4 dyo maçaricado com couve.",
+        "Tipo": ["Linha Gourmet"],
+        "Preço": 152,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 13,
+        "Nome": "Barca Especial de Natal 50 peças",
+        "Descricao": "São 50 peças de Sushis Finos variados: Shake couve: 5 peças, Passion Fruit Maracujá 5, Batera de Camarão 5, Joe salmão com queijo trufado 5, Acelga maki 5, Joe camarão trufado 5, niguiri de salmão 5, sashimi de salmão 5, sashimi de camarão trufado 5, Hossomaki de salmão Crispy de batata doce 5.",
+        "Tipo": ["Linha Experiênce"],
+        "Preço": 250,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 14,
+        "Nome": "Experiênce Maçaricado Niigata",
+        "Descricao": "Entrada, Prato Principal e Sobremesa.Entrada: 1 mini ceviche 200g, 1 mini sunomono 200g.Prato principal: Inkasa gourmet maçaricado niigata (24 peças)Sobremesa: 8 unidades de hot holl romeu e juliata com banana;",
+        "Tipo": ["Linha Experiênce"],
+        "Preço": 245,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 15,
+        "Nome": "Experiênce Sendai",
+        "Descricao": "Entrada, Prato Principal e Sobremesa.Entrada: 1 mini ceviche 200g, 1 mini sunomono 200g.Prato Principal: Inkasa gourmet Sendai (24 peças)Sobremesa: 8 unidades de hot holl romeu e juliata com banana;",
+        "Tipo": ["Linha Experiênce"],
+        "Preço": 245,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 16,
+        "Nome": "Inkasa Kani Empanado com Ovas",
+        "Descricao": "8 peças de Salmão maçaricado com Kani empanado e cream cheese, couve frito e ovas de massago ao molho de maracujá.",
+        "Tipo": ["Linha Experiênce"],
+        "Preço": 65,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 17,
+        "Nome": "Temaki de Camarão",
+        "Descricao": "Sushi Enrolado Na Folha De Alga Marinha Desidratada Em Forma De Cone Com Recheio De Camarão E Cream Cheese.",
+        "Tipo": ["Temakis"],
+        "Preço": 40,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 18,
+        "Nome": "Temaki de Salmão + Camarão",
+        "Descricao": "Sushi Enrolado Na Folha De Alga Marinha Desidratada Em Forma De Cone Com Recheio De Salmão Fresco, Camarão E Cream Cheese.",
+        "Tipo": ["Temakis"],
+        "Preço": 40,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 19,
+        "Nome": "Temaki de Salmão + Kani",
+        "Descricao": "Sushi Enrolado Na Folha De Alga Marinha Desidratada Em Forma De Cone Com Recheio De Salmão Fresco, Kani E Cream Cheese.",
+        "Tipo": ["Temakis"],
+        "Preço": 36,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 20,
+        "Nome": "Temaki de Salmão com Shimeji",
+        "Descricao": "1 unidade - sushi com arroz, enrolado na folha de alga marinha desidratada em forma de cone com recheio de salmão fresco com cogumelo shimeji e cream -cheese",
+        "Tipo": ["Temakis"],
+        "Preço": 45,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 21,
+        "Nome": "Temaki Inkasa Spicy Kani",
+        "Descricao": "Arroz, Picadinho De Kani C/ Cream Cheese, Geléia De Pimenta Vermelha E Cebolinha, Enrolado Na Alga Nori.",
+        "Tipo": ["Temakis"],
+        "Preço": 42,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 22,
+        "Nome": "Dupla Yakisoba Misto ( 1 Kg e 100g de Yakisoba)",
+        "Descricao": "2 caixinhas de Yakisoba Misto Carne e Frango totalizando 1Kg e 100g de Yakisoba",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 74,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 23,
+        "Nome": "Yakisoba de Camarão",
+        "Descricao": "Delicioso Yakisoba de Camarão e Legumes ao molho de Ostra Especial - recomendado para 1 pessoa. Aprox. 550g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 48,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 24,
+        "Nome": "Yakisoba de Carne",
+        "Descricao": "Delicioso Yakisoba de Carne e Legumes - recomendado para 1 pessoa. Aprox. 550g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 35,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 25,
+        "Nome": "Yakisoba de Frango",
+        "Descricao": "Delicioso Yakisoba de Frango e Legumes. Aprox. 550g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 37,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 26,
+        "Nome": "Yakisoba de Frutos do Mar",
+        "Descricao": "Delicioso Yakisoba de Salmão, Camarão, Polvo, Lula e Legumes ao molho de Ostra Especial - recomendado para 1 pessoa.Aprox. 550g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 49,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 27,
+        "Nome": "Dupla Rolinho Doce de Leite & Banana",
+        "Descricao": "Dupla Crocante e Sequinha de Rolinho de Doce de Leite c/ Banana da Terra - aprox. 10cm com 75g de recheio cada rolinho. Obs: ao fritar, a casquinha absorve boa parte do doce de leite, portanto, enviamos um copinho de doce de leite extra para elevar sua experiência ao máximo.Aprox. 150g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 15,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 28,
+        "Nome": "Dupla Rolinho Primavera",
+        "Descricao": "Dupla Crocante e Sequinha de Rolinho de Carne c/ Repolho - aprox. 10cm com 75g de recheio cada rolinho. Aprox. 150g",
+        "Tipo": ["Yakisobas & Rolinhos"],
+        "Preço": 15,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 29,
+        "Nome": "Sashimi de Salmão",
+        "Descricao": "Refinadas E Tradicionais Fatias De Salmão Fresco Importado do Chile.",
+        "Tipo": ["Sashimis"],
+        "Preço": 70,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 30,
+        "Nome": "Sashimi Maçaricado 6pçs",
+        "Descricao": "6 Sashimis de Salmao Maçaricados c/ toque de molho Teryiaki e Gergelim.",
+        "Tipo": ["Sashimis"],
+        "Preço": 65,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 31,
+        "Nome": "Sashimi Selado em Crosta com Gergelim",
+        "Descricao": "6 fatias de sashimi selado em crosta com gergelim 6 unid.",
+        "Tipo": ["Sashimis"],
+        "Preço": 70,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 32,
+        "Nome": "Uramaki",
+        "Tipo": ["Clássicos e Rolls"],
+        "Preço": 35,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 33,
+        "Nome": "Sunomono",
+        "Tipo": ["Clássicos e Rolls"],
+        "Preço": 70,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 34,
+        "Nome": "Dupla mini temaki morango com nutela",
+        "Tipo": ["Sobremesas"],
+        "Preço": 20,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 35,
+        "Nome": "Hot roll romeu e julieta com banana",
+        "Tipo": ["Sobremesas"],
+        "Preço": 24,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 36,
+        "Nome": "Temaki Inkasa Sweet Banana",
+        "Tipo": ["Sobremesas"],
+        "Preço": 25,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 37,
+        "Nome": "Água",
+        "Tipo": ["Bebidas"],
+        "Preço": 3,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 38,
+        "Nome": "Água com gás",
+        "Tipo": ["Bebidas"],
+        "Preço": 4,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 39,
+        "Nome": "Refrigerante lata",
+        "Tipo": ["Bebidas"],
+        "Preço": 5,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    },
+    {
+        "Numero": 40,
+        "Nome": "Suco de laranja",
+        "Tipo": ["Bebidas"],
+        "Preço": 12,
+        "Imagem": "\\img\\produtos\\Damelas/imagens/001.jpg"
+    }
+
+]
+

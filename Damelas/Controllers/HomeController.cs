@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Damelas.Models;
+using System.Text.Json;
 
 namespace Damelas.Controllers;
 
@@ -15,7 +16,24 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+      
+      List<sushi> sushis = [];
+      using (StreamReader leitor = new("Data\\sushis.json"))
+      {
+        string dados = leitor.ReadToEnd();
+        sushis = JsonSerializer.Deserialize<List<sushi>>(dados);
+      }
+      List<Tipo> tipos = [];
+      using (StreamReader leitor = new("Data\\sushis.json"));
+        {
+
+          string dados = leitor.ReadToEnd();
+          sushis = JsonSerializer.Deserialize<List<Tipo>>(dados);
+
+        }
+        ViewData["Tipos"] = tipos;
+        return View(sushis);
+        
     }
 
     public IActionResult Privacy()
