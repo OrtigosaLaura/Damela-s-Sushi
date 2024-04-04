@@ -17,23 +17,52 @@ public class HomeController : Controller
     public IActionResult Index()
     {
       
-      List<sushi> sushis = [];
-      using (StreamReader leitor = new("Data\\sushis.json"))
+      List<Produto> sushis = [];
+      using (StreamReader leitor = new("Data\\produtos.json"))
       {
         string dados = leitor.ReadToEnd();
-        sushis = JsonSerializer.Deserialize<List<sushi>>(dados);
+        sushis = JsonSerializer.Deserialize<List<Produto>>(dados);
       }
+
       List<Tipo> tipos = [];
-      using (StreamReader leitor = new("Data\\sushis.json"));
+      using (StreamReader leitor = new("Data\\tipos.json"))
         {
 
           string dados = leitor.ReadToEnd();
-          sushis = JsonSerializer.Deserialize<List<Tipo>>(dados);
+          tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
 
         }
         ViewData["Tipos"] = tipos;
         return View(sushis);
         
+    }
+
+   public IActionResult Details(int id)
+    {
+      List<Produto> sushis = [];
+      using (StreamReader leitor = new("Data\\produtos.json"))
+      {
+        string dados = leitor.ReadToEnd();
+        sushis = JsonSerializer.Deserialize<List<Produto>>(dados);
+      }
+
+      List<Tipo> tipos = [];
+      using (StreamReader leitor = new("Data\\tipos.json"))
+        {
+
+          string dados = leitor.ReadToEnd();
+          tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
+          }
+        ViewData["Tipos"] = tipos;
+        return View(sushis);
+    }
+          DetailsVM details = new(){
+            Tipos = tipos,
+            Atual = sushis.FirstOrDefault(p => p.Numero == id),
+            Anterior = sushis.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
+            Proximo = sushis.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero < id),
+        };
+        return View(details);
     }
 
     public IActionResult Privacy()
