@@ -29,3 +29,14 @@ C:\Users\etec\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\refint\Damelas.dll
 C:\Users\etec\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.pdb
 C:\Users\etec\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.genruntimeconfig.cache
 C:\Users\etec\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\ref\Damelas.dll
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.AssemblyInfoInputs.cache
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.AssemblyInfo.cs
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.csproj.CoreCompileInputs.cache
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.RazorAssemblyInfo.cache
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.RazorAssemblyInfo.cs
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.sourcelink.json
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.dll
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\refint\Damelas.dll
+C:\Users\marco\Desktop\Damela-s-Sushi\Damelas\obj\Debug\net8.0\Damelas.pdb

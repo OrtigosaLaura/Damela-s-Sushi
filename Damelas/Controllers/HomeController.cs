@@ -17,46 +17,19 @@ public class HomeController : Controller
     public IActionResult Index()
     {
       
-      List<Produto> sushis = [];
-      using (StreamReader leitor = new("Data\\produtos.json"))
-      {
-        string dados = leitor.ReadToEnd();
-        sushis = JsonSerializer.Deserialize<List<Produto>>(dados);
-      }
-
-      List<Tipo> tipos = [];
-      using (StreamReader leitor = new("Data\\tipos.json"))
-        {
-
-          string dados = leitor.ReadToEnd();
-          tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
-
-        }
-        ViewData["Tipos"] = tipos;
-        return View(sushis);
+      List<Produto> sushis = Getsushis();
+      List<Tipo> tipos = GetTipos;
+      ViewData["Tipos"] = tipos;
+      return View(sushis);
         
     }
+}
 
    public IActionResult Details(int id)
     {
-      List<Produto> sushis = [];
-      using (StreamReader leitor = new("Data\\produtos.json"))
-      {
-        string dados = leitor.ReadToEnd();
-        sushis = JsonSerializer.Deserialize<List<Produto>>(dados);
-      }
-
-      List<Tipo> tipos = [];
-      using (StreamReader leitor = new("Data\\tipos.json"))
-        {
-
-          string dados = leitor.ReadToEnd();
-          tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
-          }
-        ViewData["Tipos"] = tipos;
-        return View(sushis);
-    }
-          DetailsVM details = new(){
+      List<Produto> sushis = Getsushis();
+      List<Tipo> tipos = GetTipos;
+      DetailsVM details = new(){
             Tipos = tipos,
             Atual = sushis.FirstOrDefault(p => p.Numero == id),
             Anterior = sushis.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
@@ -65,7 +38,25 @@ public class HomeController : Controller
         return View(details);
     }
 
-    public IActionResult Privacy()
+    private List<Produto> Getsushis()
+    {
+      using (StreamReader leitor = new("Data\\produtos.json"))
+      {
+        string dados = leitor.ReadToEnd();
+        return JsonSerializer.Deserialize<List<Produto>>(dados);
+      }
+    }
+
+    private List<Tipo> GetTipos()
+    {
+      using (StreamReader leitor = new("Data\\tipos.json"))
+      {
+        string dados = leitor.ReadToEnd();
+        return JsonSerializer.Deserialize<List<Tipo>>(dados);
+      }
+    }
+
+    public IActionResult Produto()
     {
         return View();
     }
@@ -75,4 +66,4 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-}
+
