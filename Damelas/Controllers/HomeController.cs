@@ -18,22 +18,22 @@ public class HomeController : Controller
     {
       
       List<Produto> sushis = Getsushis();
-      List<Tipo> tipos = GetTipos;
+      List<Tipo> tipos = GetTipos();
       ViewData["Tipos"] = tipos;
       return View(sushis);
         
     }
-}
+
 
    public IActionResult Details(int id)
     {
       List<Produto> sushis = Getsushis();
-      List<Tipo> tipos = GetTipos;
+      List<Tipo> tipos = GetTipos();
       DetailsVM details = new(){
             Tipos = tipos,
             Atual = sushis.FirstOrDefault(p => p.Numero == id),
             Anterior = sushis.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
-            Proximo = sushis.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero < id),
+            Proximo = sushis.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
         };
         return View(details);
     }
@@ -49,16 +49,11 @@ public class HomeController : Controller
 
     private List<Tipo> GetTipos()
     {
-      using (StreamReader leitor = new("Data\\tipos.json"))
-      {
-        string dados = leitor.ReadToEnd();
-        return JsonSerializer.Deserialize<List<Tipo>>(dados);
-      }
-    }
-
-    public IActionResult Produto()
-    {
-        return View();
+        using (StreamReader leitor = new("Data\\tipos.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Tipo>>(dados);
+        }
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -67,3 +62,4 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
+}
